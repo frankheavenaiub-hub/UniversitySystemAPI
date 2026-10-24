@@ -1,5 +1,5 @@
 import { Injectable, Inject, forwardRef } from '@nestjs/common';
-import { EnrollmentService } from '../enrollment/enrollment.service';
+import { EnrollmentService } from '../enrollment/enrollment.service.js';
 
 
 @Injectable()

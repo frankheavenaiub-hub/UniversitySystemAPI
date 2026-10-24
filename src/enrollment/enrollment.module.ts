@@ -1,8 +1,8 @@
 import { Module, forwardRef } from '@nestjs/common';
-import { EnrollmentController } from './enrollment.controller';
-import { EnrollmentService } from './enrollment.service';
-import { CourseModule } from '../course/course.module';
-import { NotificationModule } from '../notification/notification.module';
+import { EnrollmentController } from './enrollment.controller.js';
+import { EnrollmentService } from './enrollment.service.js';
+import { CourseModule } from '../course/course.module.js';
+import { NotificationModule } from '../notification/notification.module.js';
 
 
 @Module({

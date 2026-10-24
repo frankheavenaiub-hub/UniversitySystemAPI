@@ -1,5 +1,5 @@
 import { Body, Controller, Get, Param, Post } from '@nestjs/common';
-import { CourseService } from './course.service';
+import { CourseService } from './course.service.js';
 
 
 @Controller('course')
